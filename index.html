@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team-Kariukis</title>
     <!-- <link rel="stylesheet" href="/css/reset.css" /> -->
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <header>
@@ -405,16 +405,6 @@
       </ul>
     </div>
 
-    <script>
-      let toggler = document.getElementsByClassName("parent");
-      let i;
-      console.log(toggler);
-      for (i = 0; i < toggler.length; i++) {
-        toggler[i].addEventListener("click", function () {
-          this.parentElement.querySelector(".child").classList.toggle("active");
-          this.classList.toggle("parent-down");
-        });
-      }
-    </script>
+    <script src="/app.js"></script>
   </body>
 </html>
