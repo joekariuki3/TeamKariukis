@@ -59,7 +59,8 @@ ul,
   color: limegreen;
 }
 
-.house__kariuki span {
+.house__kariuki span,
+.house__kariuki li {
   font-size: 1.2rem;
 }
 
