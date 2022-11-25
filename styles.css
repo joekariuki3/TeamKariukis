@@ -38,21 +38,21 @@ ul,
   background: #279bc9;
 }
 
-/* Style the caret/arrow */
+/* Style the parent/arrow */
 .parent {
   cursor: pointer;
   user-select: none; /* Prevent text selection */
   color: black;
 }
 
-/* Create the caret/arrow with a unicode, and style it */
+/* Create the parent/arrow with a unicode, and style it */
 .parent::before {
   content: "\25B6";
   display: inline-block;
   margin-right: 6px;
 }
 
-/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+/* Rotate the parent/arrow icon when clicked on (using JavaScript) */
 .parent-down::before {
   transform: rotate(90deg);
 }
