@@ -1,0 +1,52 @@
+/* Remove default bullets */
+ul,
+#myUL {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the caret/arrow */
+.parent {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+  color: black;
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.parent::before {
+  content: "\25B6";
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.parent-down::before {
+  transform: rotate(90deg);
+}
+.parent:hover {
+  color: limegreen;
+}
+
+/* Hide the child list */
+.child {
+  display: none;
+}
+.wife {
+  color: #fc46aa;
+}
+.husband {
+  color: #279bc9;
+}
+
+/* Show the child list when the user clicks on the parent/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+.deciesed {
+  color: gray;
+}
