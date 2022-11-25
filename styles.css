@@ -9,6 +9,34 @@ ul,
   margin: 0;
   padding: 0;
 }
+.main__key {
+  display: flex;
+  align-items: center;
+}
+.key {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.key__list {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+  margin-right: 5px;
+}
+.key__active {
+  background: limegreen;
+}
+.key__deceased {
+  background: gray;
+}
+.key__wife {
+  background: #fc46aa;
+}
+.key__husband {
+  background: #279bc9;
+}
 
 /* Style the caret/arrow */
 .parent {
@@ -32,6 +60,10 @@ ul,
   color: limegreen;
 }
 
+.house__kariuki span {
+  font-size: 1.5rem;
+}
+
 /* Hide the child list */
 .child {
   display: none;
@@ -47,6 +79,6 @@ ul,
 .active {
   display: block;
 }
-.deciesed {
+.deceased {
   color: gray;
 }
