@@ -9,34 +9,33 @@ ul,
   margin: 0;
   padding: 0;
 }
-.main__key {
+/* .main__key {
   display: flex;
   align-items: center;
-}
-.key {
+} */
+/* .key {
   display: flex;
   align-items: center;
   margin-right: 15px;
-}
-.key__list {
+} */
+/* .key__list {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-
   margin-right: 5px;
-}
-.key__active {
+} */
+/* .key__active {
   background: limegreen;
-}
-.key__deceased {
+} */
+/* .key__deceased {
   background: gray;
-}
-.key__wife {
+} */
+/* .key__wife {
   background: #fc46aa;
-}
-.key__husband {
+} */
+/* .key__husband {
   background: #279bc9;
-}
+} */
 
 /* Style the parent/arrow */
 .parent {
