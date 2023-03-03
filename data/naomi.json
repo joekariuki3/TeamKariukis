@@ -1,0 +1,446 @@
+{
+  "grandfather": "Joel Kariuki",
+  "grandmother": "Naomi Nyokabi",
+  "children":
+    [
+    {
+        "house":
+        {
+           "name":"House of Mugo",
+           "members":
+           [
+              {
+                 "name":"Mugo",
+                 "spouse":
+                 [
+                  {"name":"Jane","relationship": "wife",
+                    "children":
+                    [
+                    {
+                       "name":"Kariuki",
+                       "spouse":[{"name":"Alice","relationship": "wife"}],
+                       "children":
+                       [
+                        {"name":"Joseph Mugo"},
+                        {"name":"Jane mwihaki"},
+                        {"name":"Elizabeth"},
+                        {"name":"Gitau"}
+                      ]
+                        },
+                        {
+                          "name": "Mwangi",
+                          "spouse": [],
+                            "children": [
+                                {"name":"Lydia Gathoni"},
+                                {"name":"Joseph Mugo"},
+                                {"name":"John Karanja"},
+                                {"name":"Willson Kariuki"}
+                              ]
+                        },
+                        {
+                          "name": "Naomi",
+                          "spouse": [],
+                          "children": [
+                            {"name":"Joseph Mugo"},
+                            {"name":"Jane Mwihaki"},
+                            {"name":"James Mburu"},
+                            {"name":"Willson Kariuki"},
+                            {"name":"Eunice Nyambura"}
+                          ]
+                        },
+                        {
+                          "name":"Njenga",
+                          "spouse":[{"name":"Easter Virginia", "relationship": "wife"}],
+                          "children":[
+                             {"name":"Joseph Mugo"},
+                             {"name":"Paul Kamau"},
+                             {"name":"Joseph Mugo"},
+                             {"name":"Collins Mwangi"}
+                          ]
+                       },
+                       {
+                        "name":"Ndiba",
+                        "spouse":[{"name":"Nyambura", "relationship": "wife"}],
+                        "children":[
+                           {"name":"Shiro Ndiba"},
+                           {"name":"Mugo"},
+                           {"name":"Jane Mwihaki"}
+                        ]
+                     },
+                     {
+                        "name":"Peter",
+                        "spouse":[{"name":"Rechael", "relationship": "wife"}],
+                        "children":[
+                           {"name":"Kimani"},
+                           {"name":"Jane Mwihaki"}
+                        ]
+                     }
+                    ]
+                  },
+
+                  { 
+                    "name":"caroline","relationship": "wife",
+                     "children":
+                     [
+                        {
+                           "name":"Wangeci",
+                           "spouse":[{}],
+                           "children":[
+                              {"name":"Mwangi"},
+                              {"name":"Nyambura"}
+                           ]
+                        },
+                        {
+                           "name":"Mureithi",
+                           "spouse":[{"name":"Carol","relationship": "wife"}],
+                           "children":[{"name":"Kelvin Mugo"}]
+                        },
+                        {
+                          "name":"Joel kariuki",
+                          "spouse":[{}],
+                          "children":[]
+                        }
+                        
+                     ]
+                  }
+
+                ]
+              }
+                  
+            ]
+                 
+        }        
+    },
+    {
+      "house": {
+        "name": "House of Njenga",
+        "members":
+        [
+          {
+            "name": "Njenga",
+            "spouse":[{"name":"Mrs Njenga","relationship": "wife"}], 
+            "children":
+            [
+              {
+                "name": "Peter Githinji",
+                "spouse":[{}],
+                "children":[{}]
+              },
+              {
+                "name": "Naomi Nyokabi SNR",
+                "spouse":[{}],
+                "children": [
+                  {
+                    "name": "John Njenga"
+                  }
+                ]
+              },
+              {
+                "name": "Joel Karimi",
+                "spouse":[{}],
+                "children":[{}]
+              },
+              {
+                "name": "Naomi Nyokabi JRN",
+                "spouse":[{}],
+                "children": [
+                  {
+                    "name": "Ryn Wanjiku"
+                  },
+                  {
+                    "name": "Victoria Wangui"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+
+    {
+      "house": {
+        "name": "House of Kaguta",
+        "members": [
+          {
+            "name": "House of Kaguta",
+            "spouse":[{"name":"Mary Wambui","relationship": "wife"}],
+            "children":
+            [
+              {
+                "name": "Easter",
+                "spouse":[{"name":"James Mburu","relationship": "husband"}],
+                "children": [
+                  {
+                    "name": "Arthur Kungu"
+                  },
+                  {
+                    "name": "Hakim Kaguta"
+                  }
+                ]
+              },
+              {
+                "name": "Joel Kariuki",
+                "spouse":[{"name":"Easter Malel","relationship": "wife"}],
+                "children": [
+                      {
+                        "name": "Arianna Wambui"
+                      },
+                      {
+                        "name": "Gianna Wangui"
+                      }
+                  ]
+              },
+              
+              {
+                "name": "Naomi Nyokabi",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Mwangi",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Jose",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Karanja",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Njoki",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Njenga",
+                "spouse":[{}],
+                "children": [{}]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "house": {
+        "name": "House of Lucy",
+        "members": [
+          {
+            "name": "Lucy",
+            "spouse":[{"name":"Mr Kamau","relationship": "husband"}],
+            "children":
+            [
+              {
+                "name": "Njeri",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Naomi Nyokabi",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Wamboi",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "John Mbugua",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Joel Kariuki",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Wilfred Kimani",
+                "spouse":[{}],
+                "children": [{}]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+
+
+    {
+      "house": {
+        "name": "House of Muhoho",
+        "members": [
+          {
+            "name": "James Muhoho",
+            "spouse":[{"name":"Lucy Warigia","relationship": "wife"}],
+            "children":
+            [
+              {
+                "name": "Wyclif Kanyua",
+                "spouse":[{"name":"Catherine Nyambura","relationship": "wife"}],
+                "children": [
+                      {
+                        "name": "Christian Muhoho",
+                        "spouse":[{}],
+                        "children": [{}]
+                      },
+                      {
+                        "name": "Dylan Chao",
+                        "spouse":[{}],
+                        "children": [{}]
+                      }
+                    ]
+                  },
+              {
+                "name": "Naomi Nyokabi",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Joel Kariuki",
+                "spouse":[{}],
+                "children": [{}]
+              },
+              {
+                "name": "Shipyra Wanjiku",
+                "spouse":[{}],
+                "children": [{}],
+                "alive": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+
+
+   ]
+}
+      
+
+
+
+
+
+
+
+// json githendu
+{
+  "house__githendu": {
+    "parent": "House of Githendu",
+    "child": [
+      {
+        "parent": "Ann Wanja",
+        "child":
+        [
+          {
+            "parent": "Joel kariuki",
+            "child": [
+              {
+                "wife": "Ruth Kariuki"
+              }
+            ]
+          },
+          "Stephen Kiambi",
+          "Joseph Mugo",
+          "Francis Ngomi",
+          "Naomi Nyokabi"
+        ]
+      }
+    ]
+  }
+}
+
+
+// json kungu
+
+{
+  "house__kungu": {
+    "parent": "House of Kungu",
+    "child": [
+      {
+        "parent": "lucy",
+        "child":
+        [
+          "Grace Wanjiru",
+          "James Kariuki",
+          "Abigael Naomi Nyokabi"
+        ]
+      },
+      {
+        "parent": "Florence",
+        "child":
+        [
+          "Joel Kariuki",
+          "Naomi Nyokabi",
+          "Sammy Mara"
+        ]
+      }
+    ]
+  }
+}
+
+// json maina
+
+{
+  "house": "House of Maina",
+  "members": [
+    {
+      "name": "Leah Nyambura",
+      "gender": "female",
+      "children":
+      [
+        {
+          "name": "Mary Njeri",
+          "gender": "female",
+          "children": [
+            {
+              "name": "Andrew Kigen",
+              "gender": "male"
+            }
+          ]
+        },
+        {
+          "name": "Joel Kariuki",
+          "gender": "male",
+          "spouse": {
+            "name": "Lydia Wangare",
+            "gender": "female",
+            "children": [
+              {
+                "name": "Seren Nyambura",
+                "gender": "female"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Sammy Wainaina",
+          "gender": "male"
+        },
+        {
+          "name": "Joseph Mugo",
+          "gender": "male"
+        },
+        {
+          "name": "John Njenga",
+          "gender": "male"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+

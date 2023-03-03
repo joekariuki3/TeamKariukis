@@ -1,0 +1,116 @@
+{
+    "name": "main_Kariuki",
+    "spouse": {
+      "name": "kariuki-wanjiru",
+      "isDeceased": true
+    },
+    "children": [
+      {
+        "name": "Lilian",
+        "house": "House of Lilian"
+      },
+      {
+        "name": "Njenga",
+        "spouse": {
+          "name": "Mrs Njenga",
+          "isMale": false
+        },
+        "children": [
+          {
+            "name": "Kariuki"
+          },
+          {
+            "name": "Wanjiru"
+          },
+          {
+            "name": "Wambui"
+          },
+          {
+            "name": "Njoki",
+            "children": [
+              {
+                "name": "Florence Wamboi"
+              },
+              {
+                "name": "Michael Theuri"
+              }
+            ]
+          },
+          {
+            "name": "Wangui"
+          },
+          {
+            "name": "Njeri"
+          },
+          {
+            "name": "Nyambura",
+            "children": [
+              {
+                "name": "Wangari"
+              },
+              {
+                "name": "Wanjiku"
+              }
+            ]
+          },
+          {
+            "name": "Joel"
+          }
+        ]
+      },
+      {
+        "name": "Njeri",
+        "house": "House of Njeri"
+      },
+      {
+        "name": "Wambui",
+        "children": [
+          {
+            "name": "Wanjiru",
+            "children": [
+              {
+                "name": "Newton Njenga"
+              },
+              {
+                "name": "Jackson Njuguna"
+              },
+              {
+                "name": "Stanly kamau"
+              },
+              {
+                "name": "Joel Kariuki"
+              },
+              {
+                "name": "Sandra wamboi"
+              }
+            ]
+          },
+          {
+            "name": "Njoki",
+            "children": [
+              {
+                "name": "Florence Wamboi"
+              },
+              {
+                "name": "Michael Theuri"
+              }
+            ]
+          }
+        ],
+        "house": "House of Wambui"
+      },
+      {
+        "name": "Wanjiku",
+        "house": "House of Wanjiku"
+      },
+      {
+        "name": "Chege",
+        "house": "House of Chege"
+      },
+      {
+        "name": "Njoki",
+        "house": "House of Njoki"
+      }
+    ]
+  }
+  
