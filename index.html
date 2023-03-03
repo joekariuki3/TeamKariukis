@@ -1,500 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team-Kariukis</title>
-    <!-- <link rel="stylesheet" href="/css/reset.css" /> -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1 class="title">Team Kariukis</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Team-Kariukis v2</title>
+</head>
+
+<body>
+    <header class="container">
+        <h1 class="title">Team Kariukis</h1>
     </header>
-    <div class="main">
-      <div
-        class="main__key"
-        style="display: flex; align-items: center; display: flex"
-      >
-        <div
-          class="key"
-          style="
-            display: flex;
-            align-items: center;
-            margin-right: 15px;
-            display: flex;
-          "
-        >
-          <div
-            class="key__list key__active"
-            style="
-              width: 15px;
-              height: 15px;
-              border-radius: 50%;
-              margin-right: 5px;
-              background: limegreen;
-            "
-          ></div>
-          <p>Active</p>
+    <!-- start header  -->
+    <div class="container">
+        <div class="main__key" style="display: flex; align-items: center; display: flex">
+            <div class="key" style="
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+                display: flex;
+              ">
+                <div class="key__list key__active" style="
+                  width: 15px;
+                  height: 15px;
+                  border-radius: 50%;
+                  margin-right: 5px;
+                  background: rgb(27, 154, 27);
+                  
+                "></div>
+                <p>Node</p>
+            </div>
+            <div class="key" style="
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+                display: flex;
+              ">
+                <div class="key__list key__deceased" style="
+                  width: 15px;
+                  height: 15px;
+                  border-radius: 50%;
+                  margin-right: 5px;
+                  background: gray;
+                "></div>
+                <p>Deceased</p>
+            </div>
+            <div class="key" style="
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+                display: flex;
+              ">
+                <div class="key__list key__wife" style="
+                  width: 15px;
+                  height: 15px;
+                  border-radius: 50%;
+                  margin-right: 5px;
+                  background: #fc46aa;
+                "></div>
+                <p>Wife</p>
+            </div>
+            <div class="key" style="
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+                display: flex;
+              ">
+                <div class="key__list key__husband" style="
+                  width: 15px;
+                  height: 15px;
+                  border-radius: 50%;
+                  margin-right: 5px;
+                  background: #279bc9;
+                "></div>
+                <p>Husband</p>
+            </div>
         </div>
-        <div
-          class="key"
-          style="
-            display: flex;
-            align-items: center;
-            margin-right: 15px;
-            display: flex;
-          "
-        >
-          <div
-            class="key__list key__deceased"
-            style="
-              width: 15px;
-              height: 15px;
-              border-radius: 50%;
-              margin-right: 5px;
-              background: gray;
-            "
-          ></div>
-          <p>Deceased</p>
-        </div>
-        <div
-          class="key"
-          style="
-            display: flex;
-            align-items: center;
-            margin-right: 15px;
-            display: flex;
-          "
-        >
-          <div
-            class="key__list key__wife"
-            style="
-              width: 15px;
-              height: 15px;
-              border-radius: 50%;
-              margin-right: 5px;
-              background: #fc46aa;
-            "
-          ></div>
-          <p>Wife</p>
-        </div>
-        <div
-          class="key"
-          style="
-            display: flex;
-            align-items: center;
-            margin-right: 15px;
-            display: flex;
-          "
-        >
-          <div
-            class="key__list key__husband"
-            style="
-              width: 15px;
-              height: 15px;
-              border-radius: 50%;
-              margin-right: 5px;
-              background: #279bc9;
-            "
-          ></div>
-          <p>Husband</p>
-        </div>
-      </div>
-
-      <ul id="myUL">
-        <li class="house__kariuki">
-          <span class="parent deceased">Kariuki</span>
-          <ul class="child">
-            <li class="house__kariuki-wacuka">
-              <span class="parent deceased">Wacuka (1st Wife)</span>
-              <ul class="child">
-                <li class="house__sabina">
-                  <span class="parent deceased">House of Sabina Njoki</span>
-                  <ul class="child">
-                    <li>
-                      <span class="parent deceased">Joel Kariuki</span>
-                      <ul class="child">
-                        <span class="parent wife">Teresia</span>
-                        <ul class="child">
-                          <li>Ndungu</li>
-                          <li>Tony</li>
-                        </ul>
-                      </ul>
-                    </li>
-                    <li>
-                      <span class="parent">Ndungu</span>
-                      <ul class="child">
-                        <span class="parent wife">Catherine</span>
-                        <ul class="child">
-                          <li>Njoki</li>
-                          <li>Kariuki</li>
-                        </ul>
-                      </ul>
-                    </li>
-                    <li>
-                      <span class="parent">Njenga</span>
-                      <ul class="child">
-                        <span class="parent wife">Kellen</span>
-                        <ul class="child">
-                          <li>Nikita</li>
-                          <li>Kariuki</li>
-                        </ul>
-                      </ul>
-                    </li>
-                    <li>
-                      <span class="parent">Wacuka</span>
-                      <ul class="child">
-                        <span class="parent husband">Nelson</span>
-                        <ul class="child">
-                          <li>Tamara</li>
-                        </ul>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="house__michael">
-                  <span class="parent deceased">House of Michael Ndungu</span>
-                  <ul class="child">
-                    <span class="parent wife">Mrs Michael</span>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="house__kariuki-naomi">
-              <span class="parent deceased">Naomi (2nd Wife)</span>
-              <ul class="child">
-                <li class="house__mugo">
-                  <span class="parent">House of Mugo </span>
-                  <ul class="child">
-                    <li>
-                      <span class="parent wife">Jane </span>
-                      <ul class="child">
-                        <li>
-                          <span class="parent deceased">Kariuki</span>
-                          <ul class="child">
-                            <li>
-                              <span class="parent wife">Alice</span>
-                              <ul class="child">
-                                <li>Joseph Mugo</li>
-                                <li>Jane mwihaki</li>
-                                <li>Elizabeth</li>
-                                <li>Gitau</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <span class="parent">Mwangi</span>
-                          <ul class="child">
-                            <li>Lydia Gathoni</li>
-                            <li>Joseph Mugo</li>
-                            <li>John Karanja</li>
-                            <li>Willson Kariuki</li>
-                          </ul>
-                        </li>
-                        <li>
-                          <span class="parent">Naomi</span>
-                          <ul class="child">
-                            <li>Joseph Mugo</li>
-                            <li>Jane Mwihaki</li>
-                            <li>James Mburu</li>
-                            <li>Willson Kariuki</li>
-                            <li>Eunice Nyambura</li>
-                          </ul>
-                        </li>
-                        <li>
-                          <span class="parent">Njenga</span>
-                          <ul class="child">
-                            <li>
-                              <span class="parent wife">Easter Virginia</span>
-                              <ul class="child">
-                                <li>Joseph Mugo</li>
-                                <li>Paul Kamau</li>
-                                <li>Joseph Mugo</li>
-                                <li>Collins Mwangi</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <span class="parent">Ndiba</span>
-                          <ul class="child">
-                            <li>
-                              <span class="parent wife">Nyambura</span>
-                              <ul class="child">
-                                <li>Shiro Ndiba</li>
-                                <li>Mugo</li>
-                                <li>Jane Mwihaki</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <span class="parent">Peter</span>
-                          <ul class="child">
-                            <li>
-                              <span class="parent wife">Rechael</span>
-                              <ul class="child">
-                                <li>Kimani</li>
-                                <li>Jane Mwihaki</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <span class="parent wife">caroline </span>
-                      <ul class="child">
-                        <li>
-                          <span class="parent">Wangeci</span>
-                          <ul class="child">
-                            <li>Mwangi</li>
-                            <li>Nyambura</li>
-                          </ul>
-                        </li>
-                        <li>
-                          <span class="parent">Mureithi</span>
-                          <ul class="child">
-                            <li>
-                              <span class="parent wife">Carol</span>
-                              <ul class="child">
-                                <li>Kelvin Mugo</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>Joel kariuki</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="house__njenga">
-                  <span class="parent deceased">House of Njenga</span>
-                  <ul class="child">
-                    <span class="parent wife">Mrs Njenga</span>
-                    <ul class="child">
-                      <li>Peter Githinji</li>
-                      <li>
-                        <span class="parent">Naomi Nyokabi SNR</span>
-                        <ul class="child">
-                          <li>John Njenga</li>
-                        </ul>
-                      </li>
-                      <li>Joel Karimi</li>
-                      <li>
-                        <span class="parent">Naomi Nyokabi JRN</span>
-                        <ul class="child">
-                          <li>Ryn Wanjiku</li>
-                          <li>Victoria Wangui</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </ul>
-                </li>
-                <li class="house__kaguta">
-                  <span class="parent">House of Kaguta</span>
-                  <ul class="child">
-                    <li>
-                      <span class="parent wife">Mary Wambui</span>
-                      <ul class="child">
-                        <li>
-                          <span class="parent">Easter</span>
-                          <ul class="child">
-                            <li>
-                              <span class="parent husband">James Mburu</span>
-                              <ul class="child">
-                                <li>Arthur Kungu</li>
-                                <li>Hakim Kaguta</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <span class="parent">Joel Kariuki</span>
-                          <ul class="child">
-                            <li>
-                              <span class="parent wife">Easter Malel</span>
-                              <ul class="child">
-                                <li>Arianna Wambui</li>
-                                <li>Gianna Wangui</li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>Naomi Nyokabi</li>
-                        <li>Mwangi</li>
-                        <li>Jose</li>
-                        <li>Karanja</li>
-                        <li>Njoki</li>
-                        <li>Njenga</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="house__lucy">
-                  <span class="parent">House of Lucy</span>
-                  <ul class="child">
-                    <span class="parent husband">Mr Kamau</span>
-                    <ul class="child">
-                      <li>Njeri</li>
-                      <li>Naomi Nyokabi</li>
-                      <li>Wamboi</li>
-                      <li>John Mbugua</li>
-                      <li>Joel Kariuki</li>
-                      <li>Wilfred Kimani</li>
-                    </ul>
-                  </ul>
-                </li>
-                <li class="house__muhoho">
-                  <span class="parent">House of Muhoho</span>
-                  <ul class="child">
-                    <span class="parent wife">Lucy Warigia</span>
-                    <ul class="child">
-                      <li>
-                        <span class="parent">Wyclif Kanyua</span>
-                        <ul class="child">
-                          <span class="parent wife">Catherine Nyambura</span>
-                          <ul class="child">
-                            <li>Christian Muhoho</li>
-                            <li>Dylan Chao</li>
-                          </ul>
-                        </ul>
-                      </li>
-                      <li>Naomi Nyokabi</li>
-                      <li>Joel Kariuki</li>
-                      <li class="deceased">Shipyra Wanjiku</li>
-                    </ul>
-                  </ul>
-                </li>
-                <li class="house__githendu">
-                  <span class="parent">House of Githendu</span>
-                  <ul class="child">
-                    <span class="parent wife">Ann Wanja</span>
-                    <ul class="child">
-                      <li>
-                        <span class="parent">Joel kariuki</span>
-                        <ul class="child">
-                          <span class="wife">Ruth Kariuki</span>
-                        </ul>
-                      </li>
-                      <li>Stephen Kiambi</li>
-                      <li>Joseph Mugo</li>
-                      <li>Francis Ngomi</li>
-                      <li>Naomi Nyokabi</li>
-                    </ul>
-                  </ul>
-                </li>
-                <li class="house__kungu">
-                  <span class="parent">House of Kungu</span>
-                  <ul class="child">
-                    <li>
-                      <span class="parent wife">lucy</span>
-                      <ul class="child">
-                        <li>Grace Wanjiru</li>
-                        <li>James Kariuki</li>
-                        <li>Abigael Naomi Nyokabi</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <span class="parent wife">Florence</span>
-                      <ul class="child">
-                        <li>Joel Kariuki</li>
-                        <li>Naomi Nyokabi</li>
-                        <li>Sammy Mara</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="house__maina">
-                  <span class="parent">House of Maina</span>
-                  <ul class="child">
-                    <span class="parent wife">Leah Nyambura</span>
-                    <ul class="child">
-                      <li>
-                        <span class="parent">Mary Njeri</span>
-                        <ul class="child">
-                          Andrew Kigen
-                        </ul>
-                      </li>
-                      <li>
-                        <span class="parent">Joel Kariuki</span>
-                        <ul class="child">
-                          <span class="parent wife"> Lydia Wangare </span>
-                          <ul class="child">
-                            <li>Seren Nyambura</li>
-                          </ul>
-                        </ul>
-                      </li>
-                      <li>Sammy Wainaina</li>
-                      <li>Joseph Mugo</li>
-                      <li>John Njenga</li>
-                    </ul>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="house__kariuki-wanjiru">
-              <span class="parent deceased">Wanjiru (3rd Wife)</span>
-              <ul class="child">
-                <li class="house__lilian">House of Lilian</li>
-                <li class="house__njenga">
-                  <span class="parent">House of Njenga</span>
-                  <ul class="child">
-                    <span class="parent wife">Mrs Njenga</span>
-                    <ul class="child">
-                      <li>Kariuki</li>
-                      <li>Wanjiru</li>
-                      <li>Wambui</li>
-                      <li>Njoki</li>
-                      <li>Wangui</li>
-                      <li>Njeri</li>
-                      <li>
-                        <span class="parent">Nyambura</span>
-                        <ul class="child">
-                          <li>Wangari</li>
-                          <li>Wanjiku</li>
-                        </ul>
-                      </li>
-                      <li>Joel</li>
-                    </ul>
-                  </ul>
-                </li>
-                <li class="house__njeri">House of Njeri</li>
-                <li class="house__wamboi">
-                  <span class="parent">House of Wambui</span>
-                  <ul class="child">
-                    <li>
-                      <span class="parent">Wanjiru</span>
-                      <ul class="child">
-                        <li>Newton Njenga</li>
-                        <li>Jackson Njuguna</li>
-                        <li>Stanly kamau</li>
-                        <li>Joel Kariuki</li>
-                        <li>Sandra wamboi</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <span class="parent">Njoki</span>
-                      <ul class="child">
-                        <li>Florence Wamboi</li>
-                        <li>Michael Theuri</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="house__wanjiku">House of Wanjiku</li>
-                <li class="house__chege">House of Chege</li>
-                <li class="house__njoki">House of Njoki</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
     </div>
+    <!-- end header  -->
+    <div class="container">
+        <!-- body -->
+        <ul class="tree">
+            <li>
+                <details open>
+                    <summary>Kariuki</summary>
+                    <ul>
+                        <!-- start wacuka -->
+                        <li>
+                            <details>
+                                <summary class="house__kariuki-wacuka">Wacuka (1st Wife)</summary>
+                                <ul class="child">
+                                    <li>
+                                        <details>
+                                            <summary class="parent deceased">House of Sabina Njoki</summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <details>
+                                                        <summary class="parent deceased">Joel Kariuki</summary>
+                                                        <ul class="child">
+                                                            <li>
+                                                                <details>
+                                                                    <summary class="parent wife">Teresia</summary>
+                                                                    <ul class="child">
+                                                                        <li>Ndungu</li>
+                                                                        <li>Tony</li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary class="parent">Ndungu</summary>
+                                                        <ul class="child">
+                                                            <li>
+                                                                <details>
+                                                                    <summary class="parent wife">Catherine</summary>
+                                                                    <ul class="child">
+                                                                        <li>Njoki</li>
+                                                                        <li>Kariuki</li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary class="parent">Njenga</summary>
+                                                        <ul class="child">
+                                                            <li>
+                                                                <details>
+                                                                    <summary class="parent wife">Kellen</summary>
+                                                                    <ul class="child">
+                                                                        <li>Nikita</li>
+                                                                        <li>Kariuki</li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary class="parent">Wacuka</summary>
+                                                        <ul class="child">
+                                                            <li>
+                                                                <details>
+                                                                    <summary class="parent husband">Nelson</summary>
+                                                                    <ul class="child">
+                                                                        <li>Tamara</li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li>
+                                        <details>
+                                            <summary class="parent deceased">House of Michael Ndungu</summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <details>
+                                                        <summary class="parent wife">Mrs Michael</summary>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- end wacuka  -->
 
-    <script src="app.js"></script>
-  </body>
+                        <!-- Start Naomi  -->
+                        <li>
+                            <details>
+                                <summary class="house__kariuki-naomi">Naomi (2nd Wife)</summary>
+                                <ul class="child">
+                                    <li class="house__njenga">
+                                        <details>
+                                            <summary><span class="parent deceased">House of Njenga</span></summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <details>
+                                                        <summary><span class="parent wife">Mrs Njenga</span></summary>
+                                                        <ul class="child">
+                                                            <li>Peter Githinji</li>
+                                                            <li>
+                                                                <details>
+                                                                    <summary><span class="parent">Naomi Nyokabi
+                                                                            SNR</span>
+                                                                    </summary>
+                                                                    <ul class="child">
+                                                                        <li>John Njenga</li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                            <li>Joel Karimi</li>
+                                                            <li>
+                                                                <details>
+                                                                    <summary><span class="parent">Naomi Nyokabi
+                                                                            JRN</span>
+                                                                    </summary>
+                                                                    <ul class="child">
+                                                                        <li>Ryn Wanjiku</li>
+                                                                        <li>Victoria Wangui</li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li class="house__kaguta">
+                                        <details>
+                                            <summary><span class="parent">House of Kaguta</span></summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <span class="parent wife">Mary Wambui</span>
+                                                    <ul class="child">
+                                                        <li>
+                                                            <details>
+                                                                <summary><span class="parent">Easter</span></summary>
+                                                                <ul class="child">
+                                                                    <li>
+                                                                        <details>
+                                                                            <summary><span class="parent husband">James
+                                                                                    Mburu</span></summary>
+                                                                            <ul class="child">
+                                                                                <li>Arthur Kungu</li>
+                                                                                <li>Hakim Kaguta</li>
+                                                                            </ul>
+                                                                        </details>
+                                                                    </li>
+                                                                </ul>
+                                                            </details>
+                                                        </li>
+                                                        <li>
+                                                            <details>
+                                                                <summary><span class="parent">Joel Kariuki</span>
+                                                                </summary>
+                                                                <ul class="child">
+                                                                    <li>
+                                                                        <details>
+                                                                            <summary><span class="parent wife">Easter
+                                                                                    Malel</span></summary>
+                                                                            <ul class="child">
+                                                                                <li>Arianna Wambui</li>
+                                                                                <li>Gianna Wangui</li>
+                                                                            </ul>
+                                                                        </details>
+                                                                    </li>
+                                                                </ul>
+                                                            </details>
+                                                        </li>
+                                                        <li>Naomi Nyokabi</li>
+                                                        <li>Mwangi</li>
+                                                        <li>Jose</li>
+                                                        <li>Karanja</li>
+                                                        <li>Njoki</li>
+                                                        <li>Njenga</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li class="house__lucy">
+                                        <details>
+                                            <summary><span class="parent">House of Lucy</span></summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <details>
+                                                        <summary><span class="parent husband">Mr Kamau</span></summary>
+                                                        <ul class="child">
+                                                            <li>Njeri</li>
+                                                            <li>Naomi Nyokabi</li>
+                                                            <li>Wamboi</li>
+                                                            <li>John Mbugua</li>
+                                                            <li>Joel Kariuki</li>
+                                                            <li>Wilfred Kimani</li>
+                                                        </ul>
+                                                    </details>
+
+
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li class="house__muhoho">
+                                        <details>
+                                            <summary><span class="parent">House of Muhoho</span></summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <details>
+                                                        <summary>
+                                                            <span class="parent wife">Lucy Warigia</span>
+                                                        </summary>
+                                                        <ul class="child">
+                                                            <li>
+                                                                <details>
+                                                                    <summary><span class="parent">Wyclif Kanyua</span>
+                                                                    </summary>
+                                                                    <ul class="child">
+                                                                        <li>
+                                                                            <details>
+                                                                                <summary><span
+                                                                                        class="parent wife">Catherine
+                                                                                        Nyambura</span></summary>
+                                                                                <ul class="child">
+                                                                                    <li>Christian Muhoho</li>
+                                                                                    <li>Dylan Chao</li>
+                                                                                </ul>
+                                                                            </details>
+
+                                                                        </li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                            <li>Naomi Nyokabi</li>
+                                                            <li>Joel Kariuki</li>
+                                                            <li class="deceased">Shipyra Wanjiku</li>
+                                                        </ul>
+                                                    </details>
+
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li class="house__githendu">
+                                        <details>
+                                            <summary>
+                                                <span class="parent">House of Githendu</span>
+                                            </summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <details>
+                                                        <summary>
+                                                            <span class="parent wife">Ann Wanja</span>
+                                                        </summary>
+                                                        <ul class="child">
+                                                            <li>
+                                                                <details>
+                                                                    <summary>
+                                                                        <span class="parent">Joel kariuki</span>
+                                                                    </summary>
+                                                                    <ul class="child">
+                                                                        <li>
+                                                                            <span class="wife">Ruth Kariuki</span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                            <li>Stephen Kiambi</li>
+                                                            <li>Joseph Mugo</li>
+                                                            <li>Francis Ngomi</li>
+                                                            <li>Naomi Nyokabi</li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+
+                                    <li class="house__kungu">
+                                        <details>
+                                            <summary>
+                                                <span class="parent">House of Kungu</span>
+                                            </summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <details>
+                                                        <summary>
+                                                            <span class="parent wife">lucy</span>
+                                                        </summary>
+                                                        <ul class="child">
+                                                            <li>Grace Wanjiru</li>
+                                                            <li>James Kariuki</li>
+                                                            <li>Abigael Naomi Nyokabi</li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary>
+                                                            <span class="parent wife">Florence</span>
+                                                        </summary>
+                                                        <ul class="child">
+                                                            <li>Joel Kariuki</li>
+                                                            <li>Naomi Nyokabi</li>
+                                                            <li>Sammy Mara</li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li class="house__maina">
+                                        <details>
+                                            <summary>
+                                                <span class="parent">House of Maina</span>
+                                            </summary>
+                                            <ul class="child">
+                                                <li>
+                                                    <details>
+                                                        <summary>
+                                                            <span class="parent wife">Leah Nyambura</span>
+                                                        </summary>
+                                                        <ul class="child">
+                                                            <li>
+                                                                <details>
+                                                                    <summary>
+                                                                        <span class="parent">Mary Njeri</span>
+                                                                    </summary>
+                                                                    <ul class="child">
+                                                                        <li>Andrew Kigen</li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                            <li>
+                                                                <details>
+                                                                    <summary>
+                                                                        <span class="parent">Joel Kariuki</span>
+                                                                    </summary>
+                                                                    <ul class="child">
+                                                                        <li>
+                                                                            <details>
+                                                                                <summary>
+                                                                                    <span class="parent wife">Lydia
+                                                                                        Wangare</span>
+                                                                                </summary>
+                                                                                <ul class="child">
+                                                                                    <li>Seren Nyambura</li>
+                                                                                </ul>
+                                                                            </details>
+                                                                        </li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                            <li>Sammy Wainaina</li>
+                                                            <li>Joseph Mugo</li>
+                                                            <li>John Njenga</li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- end Naomi  -->
+
+
+
+                        <!-- start wanjiru  -->
+                        <li>
+                            <details>
+                                <summary>Wanjiru (3rd Wife)</summary>
+                                <ul>
+                                    <li class="house__lilian">House of Lilian</li>
+                                    <li>
+                                        <details>
+                                            <summary>House of Njenga</summary>
+                                            <ul>
+                                                <li>
+                                                    <details>
+                                                        <summary>Mrs Njenga</summary>
+                                                        <ul>
+                                                            <li>Kariuki</li>
+                                                            <li>Wanjiru</li>
+                                                            <li>Wambui</li>
+                                                            <li>Njoki</li>
+                                                            <li>Wangui</li>
+                                                            <li>Njeri</li>
+                                                            <li>
+                                                                <details>
+                                                                    <summary>Nyambura</summary>
+                                                                    <ul>
+                                                                        <li>Wangari</li>
+                                                                        <li>Wanjiku</li>
+                                                                    </ul>
+                                                                </details>
+                                                            </li>
+                                                            <li>Joel</li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li class="house__njeri">House of Njeri</li>
+                                    <li>
+                                        <details>
+                                            <summary>House of Wambui</summary>
+                                            <ul>
+                                                <li>
+                                                    <details>
+                                                        <summary>Wanjiru</summary>
+                                                        <ul>
+                                                            <li>Newton Njenga</li>
+                                                            <li>Jackson Njuguna</li>
+                                                            <li>Stanly kamau</li>
+                                                            <li>Joel Kariuki</li>
+                                                            <li>Sandra wamboi</li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary>Njoki</summary>
+                                                        <ul>
+                                                            <li>Florence Wamboi</li>
+                                                            <li>Michael Theuri</li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li class="house__wanjiku">House of Wanjiku</li>
+                                    <li class="house__chege">House of Chege</li>
+                                    <li class="house__njoki">House of Njoki</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- end wanjiru  -->
+
+                    </ul>
+                </details>
+            </li>
+        </ul>
+        <!-- body -->
+    </div>
+</body>
+
 </html>

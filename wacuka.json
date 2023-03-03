@@ -1,0 +1,92 @@
+{
+    "name": "Kariuki",
+    "spouses": [
+      {
+        "name": "Kariuki-Wacuka",
+        "children": [
+          {
+            "name": "Sabina Njoki",
+            "spouse": null,
+            "children": [
+              {
+                "name": "Joel Kariuki",
+                "spouse": "Teresia",
+                "children": [
+                  {
+                    "name": "Ndungu",
+                    "spouse": null,
+                    "children": [
+                      {
+                        "name": "Njoki",
+                        "spouse": null,
+                        "children": []
+                      },
+                      {
+                        "name": "Kariuki",
+                        "spouse": null,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tony",
+                    "spouse": null,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Ndungu",
+                "spouse": "Catherine",
+                "children": [
+                  {
+                    "name": "Njoki",
+                    "spouse": null,
+                    "children": []
+                  },
+                  {
+                    "name": "Kariuki",
+                    "spouse": null,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Njenga",
+                "spouse": "Kellen",
+                "children": [
+                  {
+                    "name": "Nikita",
+                    "spouse": null,
+                    "children": []
+                  },
+                  {
+                    "name": "Kariuki",
+                    "spouse": null,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Wacuka",
+                "spouse": "Nelson",
+                "children": [
+                  {
+                    "name": "Tamara",
+                    "spouse": null,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Michael Ndungu",
+            "spouse": "Mrs Michael",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+  
