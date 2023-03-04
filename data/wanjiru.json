@@ -1,116 +1,213 @@
+
 {
-    "name": "main_Kariuki",
-    "spouse": {
-      "name": "kariuki-wanjiru",
-      "isDeceased": true
-    },
-    "children": [
+  "house":
+  [
+    {
+    "name": "House of Lilian",
+    "members":
+    [
       {
-        "name": "Lilian",
-        "house": "House of Lilian"
-      },
-      {
-        "name": "Njenga",
-        "spouse": {
-          "name": "Mrs Njenga",
-          "isMale": false
-        },
-        "children": [
-          {
-            "name": "Kariuki"
-          },
-          {
-            "name": "Wanjiru"
-          },
-          {
-            "name": "Wambui"
-          },
-          {
-            "name": "Njoki",
-            "children": [
-              {
-                "name": "Florence Wamboi"
-              },
-              {
-                "name": "Michael Theuri"
-              }
-            ]
-          },
-          {
-            "name": "Wangui"
-          },
-          {
-            "name": "Njeri"
-          },
-          {
-            "name": "Nyambura",
-            "children": [
-              {
-                "name": "Wangari"
-              },
-              {
-                "name": "Wanjiku"
-              }
-            ]
-          },
-          {
-            "name": "Joel"
-          }
-        ]
-      },
-      {
-        "name": "Njeri",
-        "house": "House of Njeri"
-      },
-      {
-        "name": "Wambui",
-        "children": [
-          {
-            "name": "Wanjiru",
-            "children": [
-              {
-                "name": "Newton Njenga"
-              },
-              {
-                "name": "Jackson Njuguna"
-              },
-              {
-                "name": "Stanly kamau"
-              },
-              {
-                "name": "Joel Kariuki"
-              },
-              {
-                "name": "Sandra wamboi"
-              }
-            ]
-          },
-          {
-            "name": "Njoki",
-            "children": [
-              {
-                "name": "Florence Wamboi"
-              },
-              {
-                "name": "Michael Theuri"
-              }
-            ]
-          }
-        ],
-        "house": "House of Wambui"
-      },
-      {
-        "name": "Wanjiku",
-        "house": "House of Wanjiku"
-      },
-      {
-        "name": "Chege",
-        "house": "House of Chege"
-      },
-      {
-        "name": "Njoki",
-        "house": "House of Njoki"
+        "name":"Lilian",
+        "gender":"female",
+        "spouse":[{}],
+        "children":[{}]
       }
     ]
-  }
-  
+    },
+    {
+      "name": "House of Njenga",
+      "members":
+      [
+        {
+          "name":"Njenga",
+          "gender":"male",
+          "spouse":[{"name": "Mrs Njenga", "relationship":"wife", "gender":"female"}],
+          "children":
+          [
+            {
+              "name": "Kariuki",
+              "gender":"male",
+              "spouse":[{}],
+              "children":[{}]
+            },
+            {
+              "name": "Wanjiru",
+              "gender":"female",
+              "spouse":[{}],
+              "children":[{}]
+            },
+            {
+              "name": "Wambui",
+              "gender":"female",
+              "spouse":[{}],
+              "children":[{}]
+            },
+            {
+              "name": "Njoki",
+              "gender":"female",
+              "spouse":[{}],
+              "children":[ {
+                "name": "Florence Wamboi"
+              },
+              {
+                "name": "Michael Theuri",
+                "gender":"male",
+                "spouse":[{}],
+                "children":[{}]
+              }]
+            },
+            {
+              "name": "Wangui",
+              "gender":"female",
+              "spouse":[{}],
+              "children":[{}]
+            },
+            {
+              "name": "Njeri",
+              "gender":"female",
+              "spouse":[{}],
+              "children":[{}]
+            },
+            {
+              "name": "Nyambura",
+              "gender":"female",
+              "spouse":[{}],
+              "children": [
+                {
+                  "name": "Wangari",
+                  "gender":"female",
+                  "spouse":[{}],
+                  "children":[{}]
+                },
+                {
+                  "name": "Wanjiku",
+                  "gender":"female",
+                  "spouse":[{}],
+                  "children":[{}]
+                }
+              ]
+            },
+            {
+              "name": "Joel",
+              "gender":"male",
+              "spouse":[{}],
+              "children":[{}]
+            }            
+          ]
+        }
+      ]
+      },
+      {
+        "name": "House of Njeri",
+        "members":
+        [
+          {
+            "name":"Njeri",
+            "gender":"female",
+            "spouse":[{}],
+            "children":[{}]
+          }
+        ]
+        },
+        {
+          "name": "House of Wambui",
+          "members":
+          [
+            {
+              "name":"Wambui",
+              "gender":"female",
+              "spouse":[{}],
+              "children":
+              [
+                {
+                  "name": "Wanjiru",
+                  "gender":"female",
+                  "spouse":[{}],
+                  "children": [
+                    {
+                      "name": "Newton Njenga",
+                      "gender":"male",
+                      "spouse":[{}]
+                    },
+                    {
+                      "name": "Jackson Njuguna",
+                      "gender":"male",
+                      "spouse":[{}]
+                    },
+                    {
+                      "name": "Stanly kamau",
+                      "gender":"male",
+                      "spouse":[{}]
+                    },
+                    {
+                      "name": "Joel Kariuki",
+                      "gender":"male",
+                      "spouse":[{}]
+                    },
+                    {
+                      "name": "Sandra wamboi",
+                      "gender":"female",
+                      "spouse":[{}]
+                    }
+                  ]
+                },
+                {
+                  "name": "Njoki",
+                  "gender":"female",
+                  "spouse":[{}],
+                  "children": [
+                    {
+                      "name": "Florence Wamboi",
+                      "gender":"female",
+                      "spouse":[{}]
+                    },
+                    {
+                      "name": "Michael Theuri",
+                      "gender":"male",
+                      "spouse":[{}]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "House of Wanjiku",
+          "members":
+          [
+            {
+              "name":"Wanjiku",
+              "gender":"female",
+              "spouse":[{}],
+              "children":[{}]
+            }
+          ]
+        },
+        {
+          "name": "House of Chege",
+          "members":
+          [
+            {
+              "name":"Chege",
+              "gender":"male",
+              "spouse":[{}],
+              "children":[{}]
+            }
+          ]
+        },
+        {
+          "name": "House of Njoki",
+          "members":
+          [
+            {
+              "name":"Njoki",
+              "gender":"female",
+              "spouse":[{}],
+              "children":[{}]
+            }
+          ]
+        }
+        
+  ]
+}

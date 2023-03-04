@@ -1,0 +1,780 @@
+{
+    "house":
+    [
+      {
+      "name": "House of Kariuki",
+      "members":
+      [
+        {
+          "name":"Joel Kariuki",
+          "gender":"male",
+          "spouse":[{"name": "Kariuki-Wacuka", "relationship":"wife", "gender":"female"}],
+          "children":
+          [
+            { "house":
+            [
+                {
+                    "name": "House of Sabina",
+                    "members":
+                    [
+                        {
+                            "name": "Sabina Njoki",
+                            "gender":"female",
+                            "spouse": null,
+                            "children":
+                            [
+                              {
+                                "name": "Joel Kariuki",
+                                "gender":"male",
+                                "spouse":[{"name": "Teresia", "relationship":"wife", "gender":"female"}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Ndungu",
+                                    "gender":"male",
+                                    "spouse":[{}],
+                                    "children": [{}]
+                                  },
+                                  {
+                                    "name": "Tony",
+                                    "gender":"male",
+                                    "spouse": null,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Ndungu",
+                                "gender":"male",
+                                "spouse":[{"name": "Catherine", "relationship":"wife", "gender":"female"}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Njoki",
+                                    "gender":"female",
+                                    "spouse": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Kariuki",
+                                    "gender":"male",
+                                    "spouse": null,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Njenga",
+                                "gender":"male",
+                                "spouse":[{"name": "Kellen", "relationship":"wife", "gender":"female"}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Nikita",
+                                    "gender":"female",
+                                    "spouse": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Kariuki",
+                                    "gender":"male",
+                                    "spouse": null,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Wacuka",
+                                "gender":"female",
+                                "spouse":[{"name": "Nelson", "relationship":"husband", "gender":"male"}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Tamara",
+                                    "gender":"female",
+                                    "spouse": null,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "House of Michael Ndungu",
+                    "members":
+                    [
+                        {
+                            "name": "Michael Ndungu",
+                            "gender":"female",
+                            "spouse":[{"name": "Mrs Michael", "relationship":"wife", "gender":"female"}],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+             
+            }
+            
+          ]
+        },
+        {
+            "name":"Joel Kariuki",
+            "gender":"male",
+            "spouse":[{"name": "Kariuki-Naomi", "relationship":"wife", "gender":"female"}],
+            "children":
+            [
+                {
+                    "house":
+                    {
+                       "name":"House of Mugo",
+                       "members":
+                       [
+                          {
+                             "name":"Mugo",
+                             "spouse":
+                             [
+                              {"name":"Jane","relationship": "wife",
+                                "children":
+                                [
+                                {
+                                   "name":"Kariuki",
+                                   "spouse":[{"name":"Alice","relationship": "wife"}],
+                                   "children":
+                                   [
+                                    {"name":"Joseph Mugo"},
+                                    {"name":"Jane mwihaki"},
+                                    {"name":"Elizabeth"},
+                                    {"name":"Gitau"}
+                                  ]
+                                    },
+                                    {
+                                      "name": "Mwangi",
+                                      "spouse": [],
+                                        "children": [
+                                            {"name":"Lydia Gathoni"},
+                                            {"name":"Joseph Mugo"},
+                                            {"name":"John Karanja"},
+                                            {"name":"Willson Kariuki"}
+                                          ]
+                                    },
+                                    {
+                                      "name": "Naomi",
+                                      "spouse": [],
+                                      "children": [
+                                        {"name":"Joseph Mugo"},
+                                        {"name":"Jane Mwihaki"},
+                                        {"name":"James Mburu"},
+                                        {"name":"Willson Kariuki"},
+                                        {"name":"Eunice Nyambura"}
+                                      ]
+                                    },
+                                    {
+                                      "name":"Njenga",
+                                      "spouse":[{"name":"Easter Virginia", "relationship": "wife"}],
+                                      "children":[
+                                         {"name":"Joseph Mugo"},
+                                         {"name":"Paul Kamau"},
+                                         {"name":"Joseph Mugo"},
+                                         {"name":"Collins Mwangi"}
+                                      ]
+                                   },
+                                   {
+                                    "name":"Ndiba",
+                                    "spouse":[{"name":"Nyambura", "relationship": "wife"}],
+                                    "children":[
+                                       {"name":"Shiro Ndiba"},
+                                       {"name":"Mugo"},
+                                       {"name":"Jane Mwihaki"}
+                                    ]
+                                 },
+                                 {
+                                    "name":"Peter",
+                                    "spouse":[{"name":"Rechael", "relationship": "wife"}],
+                                    "children":[
+                                       {"name":"Kimani"},
+                                       {"name":"Jane Mwihaki"}
+                                    ]
+                                 }
+                                ]
+                              },
+            
+                              { 
+                                "name":"caroline","relationship": "wife",
+                                 "children":
+                                 [
+                                    {
+                                       "name":"Wangeci",
+                                       "spouse":[{}],
+                                       "children":[
+                                          {"name":"Mwangi"},
+                                          {"name":"Nyambura"}
+                                       ]
+                                    },
+                                    {
+                                       "name":"Mureithi",
+                                       "spouse":[{"name":"Carol","relationship": "wife"}],
+                                       "children":[{"name":"Kelvin Mugo"}]
+                                    },
+                                    {
+                                      "name":"Joel kariuki",
+                                      "spouse":[{}],
+                                      "children":[]
+                                    }
+                                    
+                                 ]
+                              }
+            
+                            ]
+                          }
+                              
+                        ]        
+                    }        
+                },
+                {
+                    "house": {
+                      "name": "House of Njenga",
+                      "members":
+                      [
+                        {
+                          "name": "Njenga",
+                          "spouse":[{"name":"Mrs Njenga","relationship": "wife"}], 
+                          "children":
+                          [
+                            {
+                              "name": "Peter Githinji",
+                              "spouse":[{}],
+                              "children":[{}]
+                            },
+                            {
+                              "name": "Naomi Nyokabi SNR",
+                              "spouse":[{}],
+                              "children": [
+                                {
+                                  "name": "John Njenga"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Joel Karimi",
+                              "spouse":[{}],
+                              "children":[{}]
+                            },
+                            {
+                              "name": "Naomi Nyokabi JRN",
+                              "spouse":[{}],
+                              "children": [
+                                {
+                                  "name": "Ryn Wanjiku"
+                                },
+                                {
+                                  "name": "Victoria Wangui"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "house": {
+                      "name": "House of Kaguta",
+                      "members":
+                      [
+                        {
+                          "name": "House of Kaguta",
+                          "spouse":[{"name":"Mary Wambui","relationship": "wife"}],
+                          "children":
+                          [
+                            {
+                              "name": "Easter",
+                              "spouse":[{"name":"James Mburu","relationship": "husband"}],
+                              "children": [
+                                {
+                                  "name": "Arthur Kungu"
+                                },
+                                {
+                                  "name": "Hakim Kaguta"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Joel Kariuki",
+                              "spouse":[{"name":"Easter Malel","relationship": "wife"}],
+                              "children": [
+                                    {
+                                      "name": "Arianna Wambui"
+                                    },
+                                    {
+                                      "name": "Gianna Wangui"
+                                    }
+                                ]
+                            },
+                            
+                            {
+                              "name": "Naomi Nyokabi",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Mwangi",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Jose",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Karanja",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Njoki",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Njenga",
+                              "spouse":[{}],
+                              "children": [{}]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+              
+                  {
+                    "house": {
+                      "name": "House of Lucy",
+                      "members":
+                      [
+                        {
+                          "name": "Lucy",
+                          "spouse":[{"name":"Mr Kamau","relationship": "husband"}],
+                          "children":
+                          [
+                            {
+                              "name": "Njeri",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Naomi Nyokabi",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Wamboi",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "John Mbugua",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Joel Kariuki",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Wilfred Kimani",
+                              "spouse":[{}],
+                              "children": [{}]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "house": {
+                      "name": "House of Muhoho",
+                      "members":
+                      [
+                        {
+                          "name": "James Muhoho",
+                          "spouse":[{"name":"Lucy Warigia","relationship": "wife"}],
+                          "children":
+                          [
+                            {
+                              "name": "Wyclif Kanyua",
+                              "spouse":[{"name":"Catherine Nyambura","relationship": "wife"}],
+                              "children": [
+                                    {
+                                      "name": "Christian Muhoho",
+                                      "spouse":[{}],
+                                      "children": [{}]
+                                    },
+                                    {
+                                      "name": "Dylan Chao",
+                                      "spouse":[{}],
+                                      "children": [{}]
+                                    }
+                                  ]
+                                },
+                            {
+                              "name": "Naomi Nyokabi",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Joel Kariuki",
+                              "spouse":[{}],
+                              "children": [{}]
+                            },
+                            {
+                              "name": "Shipyra Wanjiku",
+                              "spouse":[{}],
+                              "children": [{}],
+                              "alive": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+              
+                  {
+                    "house": {
+                      "name": "House of Githendu",
+                      "members":
+                      [
+                        {
+                          "name": "Githendu",
+                          "spouse":[{"name":"Ann Wanja","relationship": "wife"}],
+                          "children":
+                          [
+                            {
+                              "name": "Joel kariuki",
+                              "spouse":[{"name":"Ruth Kariuki","relationship": "wife"}],
+                              "children": [{}]
+                            },
+                            {"name":"Stephen Kiambi","spouse":[{}],"children": [{}]},
+                            {"name":"Joseph Mugo","spouse":[{}],"children": [{}]},
+                            {"name":"Francis Ngomi","spouse":[{}],"children": [{}]},
+                            {"name":"Naomi Nyokabi","spouse":[{}],"children": [{}]}
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "house": {
+                      "name": "House of Kungu",
+                      "members":
+                      [
+                        {
+                          "name": "Kungu",
+                          "spouse":[{"name":"lucy","relationship": "wife"}],
+                          "children":
+                          [
+                            {"name":"Grace Wanjiru","spouse":[{}],"children":[{}]},
+                            {"name":"James Kariuki","spouse":[{}],"children":[{}]},
+                            {"name":"Abigael Naomi Nyokabi","spouse":[{}],"children":[{}]}
+                          ]
+                        },
+                        {
+                          "name": "Kungu",
+                          "spouse":[{"name":"Florence","relationship": "wife"}],
+                          "children":
+                          [
+                            {"name":"Joel Kariuki","spouse":[{}],"children":[{}]},
+                            {"name":"Naomi Nyokabi","spouse":[{}],"children":[{}]},
+                            {"name":"Sammy Mara","spouse":[{}],"children":[{}]}
+                          ]
+                        }
+                      ]
+                    }
+                  },
+              
+                  {
+                    "house": "House of Maina",
+                    "members":
+                    [
+                      {
+                        "name": "Maina",
+                        "gender": "male",
+                        "spouse":[{"name":"Leah Nyambura","relationship": "wife","gender": "female"}],
+                        "children":
+                        [
+                          {
+                            "name": "Mary Njeri",
+                            "gender": "female",
+                            "spouse":[{}],
+                            "children": [
+                              {
+                                "name": "Andrew Kigen",
+                                "gender": "male",
+                                "spouse":[{}],
+                                "children":[{}]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Joel Kariuki",
+                            "gender": "male",
+                            "spouse":[{"name": "Lydia Wangare","gender": "female"}],
+                            "children": [
+                                {
+                                  "name": "Seren Nyambura",
+                                  "gender": "female"
+                                }
+                              ]
+                            },
+                          {
+                            "name": "Sammy Wainaina",
+                            "gender": "male",
+                            "spouse":[{}],
+                            "children":[{}]
+                          },
+                          {
+                            "name": "Joseph Mugo",
+                            "gender": "male",
+                            "spouse":[{}],
+                            "children":[{}]
+                          },
+                          {
+                            "name": "John Njenga",
+                            "gender": "male",
+                            "spouse":[{}],
+                            "children":[{}]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+
+            ]
+        },
+        {
+            "name":"Joel Kariuki",
+            "gender":"male",
+            "spouse":[{"name": "Kariuki-wanjiru", "relationship":"wife", "gender":"female"}],
+            "children":
+            [
+                {
+                    "house":
+                    [
+                      {
+                      "name": "House of Lilian",
+                      "members":
+                      [
+                        {
+                          "name":"Lilian",
+                          "gender":"female",
+                          "spouse":[{}],
+                          "children":[{}]
+                        }
+                      ]
+                      },
+                      {
+                        "name": "House of Njenga",
+                        "members":
+                        [
+                          {
+                            "name":"Njenga",
+                            "gender":"male",
+                            "spouse":[{"name": "Mrs Njenga", "relationship":"wife", "gender":"female"}],
+                            "children":
+                            [
+                              {
+                                "name": "Kariuki",
+                                "gender":"male",
+                                "spouse":[{}],
+                                "children":[{}]
+                              },
+                              {
+                                "name": "Wanjiru",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children":[{}]
+                              },
+                              {
+                                "name": "Wambui",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children":[{}]
+                              },
+                              {
+                                "name": "Njoki",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children":[ {
+                                  "name": "Florence Wamboi"
+                                },
+                                {
+                                  "name": "Michael Theuri",
+                                  "gender":"male",
+                                  "spouse":[{}],
+                                  "children":[{}]
+                                }]
+                              },
+                              {
+                                "name": "Wangui",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children":[{}]
+                              },
+                              {
+                                "name": "Njeri",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children":[{}]
+                              },
+                              {
+                                "name": "Nyambura",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children": [
+                                  {
+                                    "name": "Wangari",
+                                    "gender":"female",
+                                    "spouse":[{}],
+                                    "children":[{}]
+                                  },
+                                  {
+                                    "name": "Wanjiku",
+                                    "gender":"female",
+                                    "spouse":[{}],
+                                    "children":[{}]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Joel",
+                                "gender":"male",
+                                "spouse":[{}],
+                                "children":[{}]
+                              }            
+                            ]
+                          }
+                        ]
+                        },
+                        {
+                          "name": "House of Njeri",
+                          "members":
+                          [
+                            {
+                              "name":"Njeri",
+                              "gender":"female",
+                              "spouse":[{}],
+                              "children":[{}]
+                            }
+                          ]
+                          },
+                          {
+                            "name": "House of Wambui",
+                            "members":
+                            [
+                              {
+                                "name":"Wambui",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Wanjiru",
+                                    "gender":"female",
+                                    "spouse":[{}],
+                                    "children": [
+                                      {
+                                        "name": "Newton Njenga",
+                                        "gender":"male",
+                                        "spouse":[{}]
+                                      },
+                                      {
+                                        "name": "Jackson Njuguna",
+                                        "gender":"male",
+                                        "spouse":[{}]
+                                      },
+                                      {
+                                        "name": "Stanly kamau",
+                                        "gender":"male",
+                                        "spouse":[{}]
+                                      },
+                                      {
+                                        "name": "Joel Kariuki",
+                                        "gender":"male",
+                                        "spouse":[{}]
+                                      },
+                                      {
+                                        "name": "Sandra wamboi",
+                                        "gender":"female",
+                                        "spouse":[{}]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Njoki",
+                                    "gender":"female",
+                                    "spouse":[{}],
+                                    "children": [
+                                      {
+                                        "name": "Florence Wamboi",
+                                        "gender":"female",
+                                        "spouse":[{}]
+                                      },
+                                      {
+                                        "name": "Michael Theuri",
+                                        "gender":"male",
+                                        "spouse":[{}]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "House of Wanjiku",
+                            "members":
+                            [
+                              {
+                                "name":"Wanjiku",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children":[{}]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "House of Chege",
+                            "members":
+                            [
+                              {
+                                "name":"Chege",
+                                "gender":"male",
+                                "spouse":[{}],
+                                "children":[{}]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "House of Njoki",
+                            "members":
+                            [
+                              {
+                                "name":"Njoki",
+                                "gender":"female",
+                                "spouse":[{}],
+                                "children":[{}]
+                              }
+                            ]
+                          }
+                          
+                    ]
+                  }
+            ]
+        }
+      ]
+    }
+  ]
+  }

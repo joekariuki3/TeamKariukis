@@ -321,126 +321,113 @@
           }
         ]
       }
-    }
+    },
 
-
-   ]
-}
-      
-
-
-
-
-
-
-
-// json githendu
-{
-  "house__githendu": {
-    "parent": "House of Githendu",
-    "child": [
-      {
-        "parent": "Ann Wanja",
-        "child":
-        [
-          {
-            "parent": "Joel kariuki",
-            "child": [
-              {
-                "wife": "Ruth Kariuki"
-              }
-            ]
-          },
-          "Stephen Kiambi",
-          "Joseph Mugo",
-          "Francis Ngomi",
-          "Naomi Nyokabi"
-        ]
-      }
-    ]
-  }
-}
-
-
-// json kungu
-
-{
-  "house__kungu": {
-    "parent": "House of Kungu",
-    "child": [
-      {
-        "parent": "lucy",
-        "child":
-        [
-          "Grace Wanjiru",
-          "James Kariuki",
-          "Abigael Naomi Nyokabi"
-        ]
-      },
-      {
-        "parent": "Florence",
-        "child":
-        [
-          "Joel Kariuki",
-          "Naomi Nyokabi",
-          "Sammy Mara"
-        ]
-      }
-    ]
-  }
-}
-
-// json maina
-
-{
-  "house": "House of Maina",
-  "members": [
     {
-      "name": "Leah Nyambura",
-      "gender": "female",
-      "children":
-      [
-        {
-          "name": "Mary Njeri",
-          "gender": "female",
-          "children": [
-            {
-              "name": "Andrew Kigen",
-              "gender": "male"
-            }
-          ]
-        },
-        {
-          "name": "Joel Kariuki",
-          "gender": "male",
-          "spouse": {
-            "name": "Lydia Wangare",
-            "gender": "female",
-            "children": [
+      "house": {
+        "name": "House of Githendu",
+        "members": [
+          {
+            "name": "Githendu",
+            "spouse":[{"name":"Ann Wanja","relationship": "wife"}],
+            "children":
+            [
               {
-                "name": "Seren Nyambura",
-                "gender": "female"
-              }
+                "name": "Joel kariuki",
+                "spouse":[{"name":"Ruth Kariuki","relationship": "wife"}],
+                "children": [{}]
+              },
+              {"name":"Stephen Kiambi","spouse":[{}],"children": [{}]},
+              {"name":"Joseph Mugo","spouse":[{}],"children": [{}]},
+              {"name":"Francis Ngomi","spouse":[{}],"children": [{}]},
+              {"name":"Naomi Nyokabi","spouse":[{}],"children": [{}]}
             ]
           }
-        },
+        ]
+      }
+    },
+    {
+      "house": {
+        "name": "House of Kungu",
+        "members": [
+          {
+            "name": "Kungu",
+            "spouse":[{"name":"lucy","relationship": "wife"}],
+            "children":
+            [
+              {"name":"Grace Wanjiru","spouse":[{}],"children":[{}]},
+              {"name":"James Kariuki","spouse":[{}],"children":[{}]},
+              {"name":"Abigael Naomi Nyokabi","spouse":[{}],"children":[{}]}
+            ]
+          },
+          {
+            "name": "Kungu",
+            "spouse":[{"name":"Florence","relationship": "wife"}],
+            "children":
+            [
+              {"name":"Joel Kariuki","spouse":[{}],"children":[{}]},
+              {"name":"Naomi Nyokabi","spouse":[{}],"children":[{}]},
+              {"name":"Sammy Mara","spouse":[{}],"children":[{}]}
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "house": "House of Maina",
+      "members": [
         {
-          "name": "Sammy Wainaina",
-          "gender": "male"
-        },
-        {
-          "name": "Joseph Mugo",
-          "gender": "male"
-        },
-        {
-          "name": "John Njenga",
-          "gender": "male"
+          "name": "Maina",
+          "gender": "male",
+          "spouse":[{"name":"Leah Nyambura","relationship": "wife","gender": "female"}],
+          "children":
+          [
+            {
+              "name": "Mary Njeri",
+              "gender": "female",
+              "spouse":[{}],
+              "children": [
+                {
+                  "name": "Andrew Kigen",
+                  "gender": "male",
+                  "spouse":[{}],
+                  "children":[{}]
+                }
+              ]
+            },
+            {
+              "name": "Joel Kariuki",
+              "gender": "male",
+              "spouse":[{"name": "Lydia Wangare","gender": "female"}],
+              "children": [
+                  {
+                    "name": "Seren Nyambura",
+                    "gender": "female"
+                  }
+                ]
+              },
+            {
+              "name": "Sammy Wainaina",
+              "gender": "male",
+              "spouse":[{}],
+              "children":[{}]
+            },
+            {
+              "name": "Joseph Mugo",
+              "gender": "male",
+              "spouse":[{}],
+              "children":[{}]
+            },
+            {
+              "name": "John Njenga",
+              "gender": "male",
+              "spouse":[{}],
+              "children":[{}]
+            }
+          ]
         }
       ]
     }
-  ]
+   ]
 }
-
-
-
-
