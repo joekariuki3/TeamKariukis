@@ -6,17 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="reset.css"> -->
+
     <link rel="stylesheet" href="style.css">
+
     <title>Team-Kariukis v2</title>
 </head>
 
 <body>
     <header class="container">
         <h1 class="title">Team Kariukis</h1>
+
     </header>
     <!-- start header  -->
     <div class="container">
+
+
         <div class="main__key" style="display: flex; align-items: center; display: flex">
+
             <div class="key" style="
                 display: flex;
                 align-items: center;
@@ -711,10 +717,240 @@
         <!-- body -->
     </div>
 
+    <!-- <ul>
+        <li>
+            <details id="house_members">
+                <summary id="house_name"></summary>
+            </details>
+        </li>
+    </ul> -->
+
+    <div id="family-tree"></div>
 
     <script>
+        // fetch('./data/main.json').then((response) => response.json()).then((json) => console.log(json));
 
-        fetch('./data/main.json').then((response) => response.json()).then((json) => console.log(json));
+
+        // const dataurl = './data/main.json'
+        // const houseName = data.house[0].members[0].children[0].house.name;
+
+        // document.getElementById('house_members').textContent
+        // document.getElementById('house_name').textContent
+
+        // async function getData() {
+        //     const response = await fetch(dataurl);
+        //     const data = await response.json();
+        //     console.log(data);
+        //     console.log(data.house[0].members[0].children[0].house.name);
+        // }
+
+        // getData();
+
+
+        const data = {
+            "house":
+                [
+                    {
+                        "name": "House of Kariuki",
+                        "members":
+                            [
+                                {
+                                    "name": "Joel Kariuki",
+                                    "gender": "male",
+                                    "spouse": [{ "name": "Kariuki-Wacuka", "relationship": "wife", "gender": "female" }],
+                                    "children":
+                                        [
+                                            {
+                                                "house":
+                                                    [
+                                                        {
+                                                            "name": "House of Sabina",
+                                                            "members":
+                                                                [
+                                                                    {
+                                                                        "name": "Sabina Njoki",
+                                                                        "gender": "female",
+                                                                        "spouse": null,
+                                                                        "children":
+                                                                            [
+                                                                                {
+                                                                                    "name": "Joel Kariuki",
+                                                                                    "gender": "male",
+                                                                                    "spouse": [{ "name": "Teresia", "relationship": "wife", "gender": "female" }],
+                                                                                    "children":
+                                                                                        [
+                                                                                            {
+                                                                                                "name": "Ndungu",
+                                                                                                "gender": "male",
+                                                                                                "spouse": [{}],
+                                                                                                "children": [{}]
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "Tony",
+                                                                                                "gender": "male",
+                                                                                                "spouse": null,
+                                                                                                "children": []
+                                                                                            }
+                                                                                        ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "Ndungu",
+                                                                                    "gender": "male",
+                                                                                    "spouse": [{ "name": "Catherine", "relationship": "wife", "gender": "female" }],
+                                                                                    "children":
+                                                                                        [
+                                                                                            {
+                                                                                                "name": "Njoki",
+                                                                                                "gender": "female",
+                                                                                                "spouse": null,
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "Kariuki",
+                                                                                                "gender": "male",
+                                                                                                "spouse": null,
+                                                                                                "children": []
+                                                                                            }
+                                                                                        ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "Njenga",
+                                                                                    "gender": "male",
+                                                                                    "spouse": [{ "name": "Kellen", "relationship": "wife", "gender": "female" }],
+                                                                                    "children":
+                                                                                        [
+                                                                                            {
+                                                                                                "name": "Nikita",
+                                                                                                "gender": "female",
+                                                                                                "spouse": null,
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "Kariuki",
+                                                                                                "gender": "male",
+                                                                                                "spouse": null,
+                                                                                                "children": []
+                                                                                            }
+                                                                                        ]
+                                                                                },
+                                                                                {
+                                                                                    "name": "Wacuka",
+                                                                                    "gender": "female",
+                                                                                    "spouse": [{ "name": "Nelson", "relationship": "husband", "gender": "male" }],
+                                                                                    "children":
+                                                                                        [
+                                                                                            {
+                                                                                                "name": "Tamara",
+                                                                                                "gender": "female",
+                                                                                                "spouse": null,
+                                                                                                "children": []
+                                                                                            }
+                                                                                        ]
+                                                                                }
+                                                                            ]
+                                                                    }
+                                                                ]
+                                                        },
+                                                        {
+                                                            "name": "House of Michael Ndungu",
+                                                            "members":
+                                                                [
+                                                                    {
+                                                                        "name": "Michael Ndungu",
+                                                                        "gender": "female",
+                                                                        "spouse": [{ "name": "Mrs Michael", "relationship": "wife", "gender": "female" }],
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                        }
+                                                    ]
+
+                                            }
+
+                                        ]
+                                }
+                            ]
+                    }
+                ]
+        }
+
+
+        // Define a function to create a new node in the family tree
+        function createNode(name, gender, spouse, children) {
+            return {
+                name: name,
+                gender: gender,
+                spouse: spouse,
+                children: children,
+            };
+        }
+
+        // Define a recursive function to traverse the JSON data and create nodes for each member
+        function createFamilyTree(data) {
+            // Get the name and gender of the current member
+            const name = data.name;
+            const gender = data.gender;
+
+            // Create nodes for the member's spouse and children
+            let spouseNode = null;
+            let childrenNodes = [];
+            if (data.spouse) {
+                spouseNode = createNode(data.spouse.name, data.spouse.gender, null, []);
+            }
+            if (data.children) {
+                for (let i = 0; i < data.children.length; i++) {
+                    childrenNodes.push(createFamilyTree(data.children[i]));
+                }
+            }
+
+            // Create a node for the current member and attach the spouse and children nodes
+            const node = createNode(name, gender, spouseNode, childrenNodes);
+
+            return node;
+        }
+
+        // Call the createFamilyTree function with the JSON data to create the root node of the family tree
+        const root = createFamilyTree(data);
+
+
+
+        // Define a function to generate HTML for a family member and their descendants
+        // function generateFamilyMemberHTML(member) {
+        //     let html = `<li>${member.name}`;
+
+        //     // Add spouse information if available
+        //     if (member.spouse) {
+        //         html += ` (spouse: ${member.spouse.name})`;
+        //     }
+
+        //     // Recursively add children and their descendants
+        //     if (member.children.length > 0) {
+        //         html += '<ul>';
+        //         for (let i = 0; i < member.children.length; i++) {
+        //             html += generateFamilyMemberHTML(member.children[i]);
+        //         }
+        //         html += '</ul>';
+        //     }
+
+        //     html += '</li>';
+        //     return html;
+        // }
+
+        // Define a function to generate the HTML for the entire family tree
+        // function generateFamilyTreeHTML(root) {
+        //     const html = `<ul>${generateFamilyMemberHTML(root)}</ul>`;
+        //     return html;
+        // }
+
+        // Call the createFamilyTree function with the JSON data to create the root node of the family tree
+        // const root = createFamilyTree(data);
+
+        // Generate the HTML for the entire family tree and add it to the page
+        // const familyTreeElement = document.getElementById('family-tree');
+        // familyTreeElement.innerHTML = generateFamilyTreeHTML(root);
+
+
+
     </script>
 </body>
 

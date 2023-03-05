@@ -1,0 +1,125 @@
+{
+    "house":
+    [
+      {
+      "name": "House of Kariuki",
+      "members":
+      [
+        {
+          "name":"Joel Kariuki",
+          "gender":"male",
+          "spouse":[{"name": "Kariuki-Wacuka", "relationship":"wife", "gender":"female"}],
+          "children":
+          [
+            { "house":
+            [
+                {
+                    "name": "House of Sabina",
+                    "members":
+                    [
+                        {
+                            "name": "Sabina Njoki",
+                            "gender":"female",
+                            "spouse": null,
+                            "children":
+                            [
+                              {
+                                "name": "Joel Kariuki",
+                                "gender":"male",
+                                "spouse":[{"name": "Teresia", "relationship":"wife", "gender":"female"}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Ndungu",
+                                    "gender":"male",
+                                    "spouse":[{}],
+                                    "children": [{}]
+                                  },
+                                  {
+                                    "name": "Tony",
+                                    "gender":"male",
+                                    "spouse": null,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Ndungu",
+                                "gender":"male",
+                                "spouse":[{"name": "Catherine", "relationship":"wife", "gender":"female"}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Njoki",
+                                    "gender":"female",
+                                    "spouse": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Kariuki",
+                                    "gender":"male",
+                                    "spouse": null,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Njenga",
+                                "gender":"male",
+                                "spouse":[{"name": "Kellen", "relationship":"wife", "gender":"female"}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Nikita",
+                                    "gender":"female",
+                                    "spouse": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "Kariuki",
+                                    "gender":"male",
+                                    "spouse": null,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "Wacuka",
+                                "gender":"female",
+                                "spouse":[{"name": "Nelson", "relationship":"husband", "gender":"male"}],
+                                "children":
+                                [
+                                  {
+                                    "name": "Tamara",
+                                    "gender":"female",
+                                    "spouse": null,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "House of Michael Ndungu",
+                    "members":
+                    [
+                        {
+                            "name": "Michael Ndungu",
+                            "gender":"female",
+                            "spouse":[{"name": "Mrs Michael", "relationship":"wife", "gender":"female"}],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+             
+            }
+            
+          ]
+        }
+    ]
+}
+    ]
+}
