@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +27,32 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 30px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://joekariuki3.github.io/TeamKariukis/">Team Kariukis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://joekariuki3.github.io/TeamKariukis/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://joekariuki3.github.io/TeamKariukis/questionair.html">Add
+                            Information</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
     <header class="container">
-        <h1 class="title">Team Kariukis</h1>
 
     </header>
     <!-- start header  -->
@@ -728,6 +766,14 @@
     <div id="family-tree"></div>
 
     <script>
+
+        //navbar button on mobile to open
+        $(document).ready(function () {
+            // Fix the Bootstrap hamburger button on mobile
+            $('.navbar-toggler').click(function () {
+                $('.navbar-collapse').toggleClass('show');
+            });
+        });
         // fetch('./data/main.json').then((response) => response.json()).then((json) => console.log(json));
 
 
